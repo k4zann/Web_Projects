@@ -1,0 +1,934 @@
+/* line 1, ../../../../../Desktop/PROJECTS/project3/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+  /**   .reasons
+    &_round
+      margin: 0 auto **/
+}
+
+/* line 1, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 5, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+/* line 12, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .hamburger {
+  display: none;
+}
+
+/* line 15, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 21, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 25, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .menu_link:hover {
+  text-decoration: none;
+  color: #1eacc7;
+}
+
+/* line 28, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 31, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 35, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 41, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 45, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 51, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 57, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 66, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../../../../Desktop/PROJECTS/project3/sass/_mixin.sass */
+* .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 84, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 88, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 96, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 105, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 112, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../../../../Desktop/PROJECTS/project3/sass/_mixin.sass */
+* .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 129, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 131, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 136, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .reasons_block_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 145, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .reasons_block_descr {
+  width: 343px;
+}
+
+/* line 147, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .reasons_block_descr_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 152, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .reasons_block_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 158, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 169, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .label_white {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 184, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 192, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .title_white {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 200, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .title_min {
+  width: 76px;
+}
+
+/* line 207, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subtitle {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+  margin-top: 19px;
+}
+
+/* line 214, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .subtitle_white {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 19px;
+  color: #fff;
+}
+
+/* line 225, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 229, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile .row {
+  margin-top: 32px;
+}
+
+/* line 231, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: 19px;
+  padding-top: 92px;
+}
+
+/* line 238, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_1 {
+  background: url("../img/mobile/mobile_1.jpg") center center/cover no-repeat;
+}
+
+/* line 240, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_2 {
+  background: url("../img/mobile/mobile_2.jpg") center center/cover no-repeat;
+}
+
+/* line 242, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_3 {
+  background: url("../img/mobile/mobile_3.jpg") center center/cover no-repeat;
+}
+
+/* line 244, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_4 {
+  background: url("../img/mobile/mobile_4.jpg") center center/cover no-repeat;
+}
+
+/* line 246, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_5 {
+  background: url("../img/mobile/mobile_5.jpg") center center/cover no-repeat;
+}
+
+/* line 248, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_6 {
+  background: url("../img/mobile/mobile_6.jpg") center center/cover no-repeat;
+}
+
+/* line 250, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 257, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background: #222;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 272, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 279, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 290, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .mobile_item_plus:hover:before, * .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 296, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../img/bg/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 301, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .choice_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 306, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .choice_descr {
+  text-align: center;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 312, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 321, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require {
+  padding: 68px 0 84px 0;
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1cabc3;
+}
+
+/* line 323, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require_block {
+  margin: 33px 0;
+}
+
+/* line 325, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 327, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require_title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #1CA8C3;
+}
+
+/* line 331, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22pxs;
+}
+
+/* line 335, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require_list li {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 341, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .require_list li:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(-5px, -2px);
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue_1.svg") center center/cover no-repeat;
+}
+
+/* line 356, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 360, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .warning .require_list li:before {
+  background: url("../icons/check_red.svg") center center/cover no-repeat;
+}
+
+/* line 363, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .world {
+  position: relative;
+  padding: 49px 0;
+  min-height: 720px;
+  background: url("../img/world_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 368, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .world_link {
+  bottom: 49px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #396c80;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 380, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .world_link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 384, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 387, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* footer a:hover {
+  text-decoration: none;
+}
+
+/* line 391, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 396, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_wrapper {
+  display: flex;
+  justify-content: soace-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 401, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 403, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 406, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 410, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 419, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_social_item i {
+  color: #fff;
+}
+
+/* line 421, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 424, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 428, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_links_main a {
+  color: #070716;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 433, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 437, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 442, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .footer_links_lang {
+  display: flex;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 453, ../../../../../Desktop/PROJECTS/project3/sass/_general.sass */
+* .xs_visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_header {
+    font-size: 50px;
+  }
+  /* line 11, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 13, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_descr {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 18, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_item {
+    padding-right: 8px;
+  }
+  /* line 20, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_link {
+    font-size: 10px;
+  }
+  /* line 24, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_logo img {
+    width: 100%;
+  }
+  /* line 26, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_official {
+    font-size: 11px;
+  }
+  /* line 28, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 30, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_btn {
+    margin-top: 21px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 35, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_header {
+    font-size: 40px;
+  }
+  /* line 37, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 40, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_block {
+    align-items: flex-center;
+    flex-direction: column;
+  }
+  /* line 43, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_round {
+    margin-right: 0;
+  }
+  /* line 45, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 51, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: #222;
+    opacity: .8;
+    transition: 0.6s all;
+  }
+  /* line 64, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_active {
+    left: 0;
+  }
+  /* line 67, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px;
+  }
+  /* line 71, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu_link {
+    font-size: 20px;
+  }
+  /* line 73, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 12px;
+    width: 26px;
+  }
+  /* line 81, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 89, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 91, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 93, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 95, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 97, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .xs_hiden {
+    display: none;
+  }
+  /* line 99, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .xs_visible {
+    display: block;
+  }
+  /* line 102, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16 px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 110, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 117, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_header {
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 124, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * nav {
+    height: 30px;
+  }
+  /* line 126, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * header {
+    height: 30px;
+  }
+  /* line 128, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 131, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_official {
+    display: none;
+  }
+  /* line 133, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 135, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 140, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .subheader_btn {
+    width: 118px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 145, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 148, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_descr {
+    display: none;
+  }
+  /* line 150, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 154, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 159, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 163, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .menu {
+    width: 85px;
+  }
+  /* line 165, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 167, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 169, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_reasons {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 172, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 175, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .reasons_subtitle {
+    font-size: 16px;
+  }
+  /* line 177, ../../../../../Desktop/PROJECTS/project3/sass/_media.sass */
+  * .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
